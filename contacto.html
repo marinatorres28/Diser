@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eficiecia Energetica</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <nav class="menu" id="menu">
+            <!-- Logo -->
+            <img src="img/favicon.png" alt="logo-header" class="logo-header">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Quienes Somos</a></li>
+                <li><a href="">Autoconsumo</a></li>
+                <li><a href="">Proyectos</a></li>
+                <li><a href="eficiencia-energetica.html">Eficiencia Energética</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <img src="img/Banner.jpg" alt="banner-inicio" class="banner-inicio">
+        </div>
+    </header>
+
+    <!-- Formulario -->
+    <h2>Ponte en contacto con nosotros</h2>
+    <hr class="separador">
+    <div class="formulario">
+
+        <form action="">
+                <p>
+                    <label for="nombre"></label>
+                    <input type="text" placeholder="Nombre" id="nombre">
+                </p>
+
+                <p>
+                    <label for="telefono"></label>
+                    <input type="number" placeholder="Teléfono" required maxlength="9" minlength="9" pattern="[0-9]" id="telefono">
+                </p>
+
+                <p>
+                    <label for="email"></label>
+                    <input type="email" placeholder="Email" required id="email">
+                </p>
+
+                <p>
+                    <textarea id="mensaje" cols="52px" rows="7" placeholder="Mensaje"></textarea>
+                </p>
+
+                <button type="submit" class="boton" id="boton-validar">Enviar</button>
+        </form>
+
+    </div>
+
+
+
+    <script src="js/contacto.js"></script>
+</body>
+
+</html>
